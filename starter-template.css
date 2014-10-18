@@ -1,13 +1,7 @@
 body {
   padding-top: 10px;
 }
-[class*="col-"], footer {
-  background-color: lightgreen;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
-  text-align: center;
-}
+
 @media (min-width: 768px) {
   .container {
     max-width: 750px;
@@ -22,3 +16,9 @@ body {
   .container {
     max-width: 1170px;
   }
+
+  img#moi{
+    height: 75px;
+    width: 75px;
+  }
+   
